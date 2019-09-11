@@ -1,0 +1,58 @@
+@media screen and (max-width: 1440px) {
+  header .header-top .navbar .links ul li .dropdown-menu {
+    top: 193%; } }
+@media screen and (max-width: 1024px) {
+  header .header-top {
+    padding: 10px !important; }
+    header .header-top .header-top__logo .logo {
+      font-size: 3.4rem; }
+    header .header-top .navbar .links ul li a {
+      padding: 0 !important;
+      font-size: 1.1rem !important; }
+    header .header-top .navbar .links ul li .dropdown-menu {
+      top: 232% !important;
+      width: 150px !important; } }
+@media screen and (max-width: 768px) {
+  .navbar-light .navbar-toggler {
+    position: absolute !important;
+    right: 0 !important; } }
+@media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 150px; }
+    header .header-top .navbar .links {
+      position: absolute;
+      left: 200px;
+      top: 100px; }
+    header .header-main .header-main__title h1 {
+      font-size: 5rem;
+      margin-bottom: 70px; } }
+@media screen and (max-width: 426px) {
+  header .header-top .header-top__logo .logo {
+    font-size: 1.9rem; }
+  header .header-top .navbar .links {
+    position: absolute;
+    left: 75px !important;
+    top: 55px !important; }
+    header .header-top .navbar .links ul .dropdown {
+      position: relative; }
+      header .header-top .navbar .links ul .dropdown .dropdown-menu {
+        position: absolute;
+        top: 0px !important;
+        left: -170px; }
+  header .header-main .header-main__title h2 {
+    font-size: 1.8rem; }
+  header .header-main .header-main__title h1 {
+    font-size: 3.5rem; } }
+@media screen and (max-width: 376px) {
+  header .header-top .header-top__logo .logo {
+    font-size: 1.4rem; }
+  header .header-top .navbar .links ul li a {
+    font-size: 1rem !important; } }
+@media screen and (max-width: 320px) {
+  header .header-top .navbar .links {
+    left: 50px !important; }
+  header .header-main .header-main__title h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px; }
+  header .header-main .header-main__title h1 {
+    font-size: 2.5rem; } }

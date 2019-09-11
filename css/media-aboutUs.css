@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  .about-us .about-us__content .about-us__content_item {
+    margin-left: 62px; } }
+@media screen and (max-width: 376px) {
+  .about-us {
+    padding: 40px 0; }
+    .about-us .about-us__title h1 {
+      margin-bottom: 30px; }
+    .about-us .about-us__subtitle {
+      margin-bottom: 40px; }
+    .about-us .about-us__content .about-us__content_item {
+      margin-left: 30px; } }
+@media screen and (max-width: 321px) {
+  .about-us .about-us__content .about-us__content_item {
+    margin-left: 15px; }
+
+  .material-icons-message:before,
+  .material-icons-security:before,
+  .material-icons-arrow_forward:before,
+  .material-icons-headset_mic:before {
+    left: 18px; } }

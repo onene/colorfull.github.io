@@ -1,0 +1,63 @@
+.blog
+    padding: 80px 0
+    background-color: #f1f1f1
+    .blog__title
+        h1 
+            margin-bottom: 55px
+            font-weight: 400
+            font-size: 2.3rem
+    .blog__subtitle
+        text-align: center
+        h2 
+            margin-bottom: 55px
+            font-weight: 500
+            font-size: 1.2rem
+    .blog__content
+        .blog__content_item
+            box-sizing: border-box
+            &:hover .blog__content_item_overlay
+                    display: block
+            .blog__content_item_img
+                position: relative
+                background-image: url('../img/blog1.png')
+                background-size: auto
+                background-position-x: -3px
+                height: 350px     
+            .blog__content_item_img2
+                position: relative
+                background-image: url('../img/blog2.png')
+                background-size: auto
+                background-position-x: -3px
+                height: 350px     
+            .blog__content_item_overlay
+                position: absolute
+                top: 0
+                left: 15px
+                right: 15px
+                bottom: 0
+                background: -webkit-linear-gradient(top, rgba(254, 255, 255, 0.1), rgba(254, 255, 255, 0.5), rgba(0, 0, 0, 0.5))
+                display: none
+                // width: auto
+                // height: 350px
+                .blog__content_item_overlay_icon
+                    position: absolute
+                    right: 25px
+                    top: 25px 
+                    width: 50px
+                    height: 50px
+                    background-color: #5dbdfe
+                    border-radius: 50%
+                .blog__content_item_overlay_text
+                    position: absolute
+                    bottom: 30px
+                    left: 30px
+                    p 
+                        font-size: 1rem
+                        color: #cfcfcf
+                        font-weight: 700
+                    h3 
+                        color: #ffffff
+                        font-size: 1.25rem
+                
+                
+        

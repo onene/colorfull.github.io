@@ -1,0 +1,51 @@
+.faq {
+  padding: 80px 0; }
+  .faq .faq__title {
+    text-align: center; }
+    .faq .faq__title h1 {
+      margin-bottom: 55px;
+      font-weight: 400;
+      font-size: 2.3rem; }
+  .faq .faq-acordion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .faq .faq-acordion .accordion {
+      background-color: #ff4538;
+      color: #fff;
+      cursor: pointer;
+      padding: 16px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 18px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+      .faq .faq-acordion .accordion:after {
+        content: url("../img/plus.png");
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px; }
+    .faq .faq-acordion .panel {
+      padding: 0 18px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      color: #fff;
+      background-color: #ff4538;
+      max-height: 0;
+      overflow: hidden;
+      -webkit-transition: max-height 0.3s ease-out;
+      transition: max-height 0.3s ease-out; }
+      .faq .faq-acordion .panel p {
+        margin-bottom: 15px; }
+    .faq .faq-acordion .active:after {
+      content: url("../img/minus.png"); }

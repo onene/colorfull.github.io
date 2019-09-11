@@ -1,0 +1,35 @@
+.about-us {
+  padding: 80px 0; }
+  .about-us .about-us__title {
+    text-align: center; }
+    .about-us .about-us__title h1 {
+      margin-bottom: 55px;
+      font-weight: 400;
+      font-size: 2.3rem; }
+  .about-us .about-us__subtitle {
+    margin-bottom: 70px; }
+    .about-us .about-us__subtitle h2 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 1.25; }
+  .about-us .about-us__content .material-icons-message,
+  .about-us .about-us__content .material-icons-security,
+  .about-us .about-us__content .material-icons-sync,
+  .about-us .about-us__content .material-icons-headset_mic {
+    width: 90px;
+    height: 90px;
+    background-color: #5dbdfe;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block; }
+  .about-us .about-us__content .about-us__content_item {
+    width: 70%;
+    margin-left: 15px;
+    margin-bottom: 50px; }
+    .about-us .about-us__content .about-us__content_item h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 20px; }
+    .about-us .about-us__content .about-us__content_item p {
+      font-size: 1rem;
+      font-weight: 400; }

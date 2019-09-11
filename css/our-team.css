@@ -1,0 +1,28 @@
+.our-team {
+  padding: 80px 0; }
+  .our-team .our-team__title {
+    text-align: center; }
+    .our-team .our-team__title h1 {
+      margin-bottom: 55px;
+      font-weight: 400;
+      font-size: 2.3rem; }
+  .our-team .our-team_slider .slider-team .slide {
+    text-align: center;
+    width: 23%;
+    margin-right: 10px; }
+    .our-team .our-team_slider .slider-team .slide img {
+      display: inline-block;
+      margin: 0 auto;
+      margin-bottom: 34px; }
+    .our-team .our-team_slider .slider-team .slide h2 {
+      font-weight: 400;
+      font-size: 2.125rem;
+      margin-bottom: 20px; }
+    .our-team .our-team_slider .slider-team .slide h3 {
+      color: #5dbdfe;
+      margin-bottom: 20px;
+      font-size: 1rem;
+      font-weight: 900; }
+    .our-team .our-team_slider .slider-team .slide p {
+      color: #6e6e6e;
+      font-size: 1.25rem; }

@@ -1,0 +1,43 @@
+.features {
+  background-color: #f1f1f1;
+  padding: 80px 0;
+  position: relative; }
+  .features .features__title {
+    text-align: center; }
+    .features .features__title h1 {
+      margin-bottom: 55px;
+      font-weight: 400;
+      font-size: 2.3rem; }
+  .features .features__subtitle {
+    margin-bottom: 70px; }
+    .features .features__subtitle h2 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 1.25; }
+  .features .features__item {
+    margin-bottom: 30px; }
+    .features .features__item .material-icons-tune,
+    .features .features__item .material-icons-dvr,
+    .features .features__item .material-icons-devices {
+      width: 50px;
+      height: 50px;
+      position: relative; }
+    .features .features__item .features__content_item {
+      width: 100%;
+      margin-left: 40px; }
+      .features .features__item .features__content_item h3 {
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: #333333;
+        margin-bottom: 20px; }
+      .features .features__item .features__content_item p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #333333; }
+  .features .features-img {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: -50px; }
+    .features .features-img img {
+      width: 100%; }

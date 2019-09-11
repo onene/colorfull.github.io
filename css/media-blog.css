@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  .blog .blog__content .blog__content_item .blog__content_item_img {
+    background-size: cover;
+    margin-bottom: 20px !important; }
+  .blog .blog__content .blog__content_item .blog__content_item_overlay {
+    right: 27px !important;
+    bottom: 20px !important; }
+  .blog .blog__content .blog__content_item .blog__content_item_img2 {
+    background-size: cover; } }
+@media screen and (max-width: 426px) {
+  .blog .blog__content .blog__content_item .blog__content_item_img {
+    background-size: cover;
+    margin-bottom: 20px !important; }
+  .blog .blog__content .blog__content_item .blog__content_item_overlay {
+    right: 15px !important;
+    bottom: 28px !important; }
+  .blog .blog__content .blog__content_item .blog__content_item_img2 {
+    background-size: cover; }
+  .blog .blog__title h1 {
+    font-size: 1.8rem; } }
+@media screen and (max-width: 321px) {
+  .blog .blog__title h1 {
+    font-size: 1.8rem; } }

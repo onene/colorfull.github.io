@@ -1,0 +1,45 @@
+.faq
+    padding: 80px 0
+    .faq__title
+        text-align: center
+        h1 
+            margin-bottom: 55px
+            font-weight: 400
+            font-size: 2.3rem
+    .faq-acordion
+        display: flex
+        justify-content: space-between
+        margin-bottom: 20px
+        flex-wrap: wrap
+        .accordion
+            background-color: #ff4538
+            color: #fff
+            cursor: pointer
+            padding: 16px
+            width: 100%
+            border: none
+            text-align: left
+            outline: none
+            font-size: 18px
+            transition: 0.5s
+            &:after
+                content: url('../img/plus.png')
+                color: #fff
+                font-size: 18px
+                font-weight: bold
+                float: right
+                margin-left: 5px
+        .panel
+            padding: 0 18px
+            
+            box-sizing: border-box
+            color: #fff
+            background-color: #ff4538
+            max-height: 0
+            overflow: hidden
+            transition: max-height 0.3s ease-out
+            p 
+                margin-bottom: 15px
+        .active
+            &:after
+                content: url('../img/minus.png')
